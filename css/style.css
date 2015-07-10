@@ -1,0 +1,66 @@
+header {
+  border-bottom: 2px solid #bcbbbb;
+  margin-bottom: 5%;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1,
+p,
+h2,
+h3,
+a {
+  font-family: 'Droid Sans', sans-serif;
+  color: #171017;
+}
+
+.featured {
+  float: left;
+  padding: 3rem 0 3rem 0;
+}
+
+.featured-h1 {
+  font-size: 4rem;
+}
+
+.logo-img {
+  float: left;
+  width: 13rem;
+  height: 40%;
+  margin-left: 6%;
+}
+
+.sign-h2 {
+  font-size: 5rem;
+  float: right;
+  margin-right: 6%;
+}
+
+.sign-p {
+  font-size: 2rem;
+  float: right;
+  margin-right: 6%;
+  clear: both;
+}
+
+.portfolio {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.portfolio-h3 {
+  font-size: 3rem;
+}
+
+.portfolio-p {
+  font-size: 2rem;
+}
+
+.text-muted {
+  color: #bcbbbb;
+  margin-left: 10px;
+}

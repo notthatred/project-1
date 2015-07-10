@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+  <meta name="description" content="Udacity Project 1 : Build a portfolio">
+  <meta name="author" content="Riccardo Salucco">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <title>Project 1 : Riccardo"s Portfolio</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+</head>
+
+<body>
+  
+  <div class="container">
+
+    <!--Header-->
+    <header class="row">
+    <!--Logo-->
+      <div class="col-md-6 col-xs-6 logo">
+          <img class="img-responsive logo-img" src="images/logo.png" alt="Logo">
+      </div>
+      <!--Name and catchy sentence-->
+      <div class="col-md-6 col-xs-6 sign">
+        <h2 class="text-uppercase sign-h2">Notthatred</h2>
+        <p class="sign-p">it's not the thread!</p>
+      </div>
+
+    </header>
+
+    <!--Main Image-->
+    <div class="row">
+
+      <picture class="col-md-12 col-sm">
+        <img class="img-responsive" src="images/teddyred.jpg" alt="Red Teddy Bear">
+      </picture>
+
+    </div>
+
+    <!--Featured Work-->
+    <div class="row">
+
+      <section class="col-md-12 col-sm-12 featured">
+        <h1 class="text-muted featured-h1">Featured Work</h1>
+      </section>
+
+    </div>
+
+    <section class="row portfolio">
+      <div class="col-md-4 col-sm-4">
+          <a href="#">
+          <img class="img-responsive" src="images/door_red.jpg" data-toggle="modal" data-target="#test1" alt="Red door to open between you and your possibilities">
+          </a>
+          <h3 class="text-uppercase portfolio-h3">Red Door</h3>
+          <p class="portfolio-p"><a href="https://github.com/notthatred/">https://github.com/notthatred/</a>
+          </p>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+          <a href="#">
+          <img class="img-responsive" src="images/gemred.jpg" data-toggle="modal" data-target="#redgem" alt="Juicy red fruits">
+          </a>
+          <h3 class="text-uppercase portfolio-h3">Red Gems</h3>
+          <p class="portfolio-p"><a href="https://github.com/notthatred/">https://github.com/notthatred/</a>
+          </p>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+          <a href="#">
+          <img class="img-responsive" src="images/red_skates.jpg" data-toggle="modal" data-target="#redskate" alt="A pair of red skates">
+          </a>
+          <h3 class="text-uppercase portfolio-h3">Red Skates</h3>
+          <p class="portfolio-p"><a href="https://github.com/notthatred/">https://github.com/notthatred/</a>
+          </p>
+      </div>
+    
+    </section>
+
+    <footer class="row">
+
+      <div class="col-md-12 col-sm-12 text-center mail-btn">
+          <a href="mailto:spam@spam.com" class="btn btn-default btn-lg" role="button">Keep in touch</a>
+      </div>
+
+    </footer>
+
+    <!--Modals-->
+
+    <div class="modal fade" id="test1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Red Door</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/door_red.jpg" alt="red door">
+            What"s behind the door?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="redgem" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel1">Red juicy gems</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/gemred.jpg" alt="gem red">
+            How do you call that fruit?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="redskate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel2">Red Skates</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="images/red_skates.jpg" alt="red skates">
+            Where do you want to go?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+</body>
+</html>
